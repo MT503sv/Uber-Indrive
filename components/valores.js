@@ -14,18 +14,18 @@ class valores extends HTMLElement {
 
         <div class="relative w-80 h-[28rem] rounded-lg overflow-hidden shadow-lg">
        <img src="img/1.jpeg" alt="people" class="w-full h-full object-cover" />
-       <div class="absolute top-4 left-4 text-white text-xl font-bold">People</div>
+       <div class="absolute top-4 left-4 text-white text-2xl font-bold">People</div>
        <botton class="absolute bottom-4 left-4 bg-black text-white font-semibold py-1 px-3 rounded-full">Learn more</botton>
         </div>
         <div class="relative w-80 h-[28rem] rounded-lg overflow-hidden shadow-lg">
        <img src="img/2.png" alt="purpose" class="w-100 h-100 object-cover" />
-       <div class="absolute top-4 left-4 text-white text-xl font-bold">Purpose</div>
+       <div class="absolute top-4 left-4 text-white text-2xl font-bold">Purpose</div>
        <botton class="absolute bottom-4 left-4 bg-black text-white font-semibold py-1 px-3 rounded-full">Learn more</botton>
         </div>
        
         <div class="relative w-80 h-[28rem] rounded-lg overflow-hidden shadow-lg">
        <img src="img/3.jpeg" alt="Perfomance" class="w-100 h-100 object-cover" />
-        <div class="absolute top-4 left-4 text-white text-xl font-bold">Perfomance</div>
+        <div class="absolute top-4 left-4 text-white text-2xl font-bold">Perfomance</div>
         <button class="absolute bottom-4 left-4 bg-black text-white font-semibold py-1 px-3 rounded-full">Learn more</button>
         </div>
 
