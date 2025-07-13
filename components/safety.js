@@ -4,7 +4,6 @@ class Safety extends HTMLElement {
         <!-- 🔽 Contenedor general centrado -->
         <div class="min-h-screen flex items-center justify-center p-4 bg-gray-100">
 
-            <!-- 🔽 NUEVO BLOQUE: encabezado fuera del contenedor blanco -->
             <div class="absolute top-10 text-center space-y-2">
                 <span class="bg-black text-white px-3 py-1 rounded-full text-sm font-inter font-bold">Safety</span>
                 <h1 class="text-3xl mt-4 font-manrope font-bold">
@@ -12,15 +11,13 @@ class Safety extends HTMLElement {
                 </h1>
                 <p class="text-gray-600 font-inter">Stay on the safe side with Uber</p>
             </div>
-            <!-- 🔼 FIN BLOQUE NUEVO -->
-
-            <!-- Contenedor blanco ajustado al contenido restante -->
-            <div class="bg-white p-8 rounded-lg w-full max-w-4xl mt-48">
+            
+            <div class="bg-white p-8 rounded-lg w-full max-w-4xl mt-30">
 
                 <div class="flex flex-col md:flex-row items-center gap-8">
 
                     <div class="w-full md:w-1/2 flex justify-center">
-                        imagen de hombr
+                        <img src="imagenes de indrive/image of man/img.jpg" alt="">
                     </div>
 
                     <div class="w-full md:w-1/2 space-y-4 text-center md:text-left">
