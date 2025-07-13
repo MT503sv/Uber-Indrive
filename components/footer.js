@@ -54,9 +54,9 @@ class Footer extends HTMLElement {
         </div>
 
         <div class="flex justify-between">
-          <div class="flex items-center space-x-4">
-            <div class="">
-                <button>English</button>
+          <div>
+            <div class="flex justify-center items-center bg-black">
+                <button class"px-6 py-3 bg-black text-white rounded-full">English</button>
             </div>
          </div>
           <div class="flex space-x-3">
@@ -70,7 +70,7 @@ class Footer extends HTMLElement {
         </div>
 
         <div class="text-sm text-gray-400">
-          <p class="mb-4">Go anywhere with Uber.
+          <p class="mb-4">Go anywhere with Uber <br>
             We reimagine the way the world moves for the better</p>
         </div>
         <div class="flex space-x-4 justify-between">
