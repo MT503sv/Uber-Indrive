@@ -1,4 +1,4 @@
-class Navbar extends HTMLElement {
+class News extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <section class="bg-[#fdfbea] font-sans relative w-full min-h-screen overflow-hidden">
@@ -67,4 +67,4 @@ class Navbar extends HTMLElement {
     }
 }
 
-customElements.define('pa-tito', Navbar);
+customElements.define('new-s', News);
