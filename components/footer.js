@@ -4,7 +4,7 @@ class Footer extends HTMLElement {
       <footer class="bg-black text-white px-20 py-20 text-sm">
         <div class="grid grid-cols-2 md:grid-cols-5 gap-8 mb-10">
                 <div class="space-y-10 flex flex-col">
-                  <img src="components/Uber-White-Logo.wine.svg" alt="" class="w-20 h-10 ">
+                  <img src="components/Uber-White-Logo.wine.svg" alt="" class="w-20 h-10 "></img>
                     <p class="text-white text-base mt-2">Visit Help Center</p>
                 </div>
         </div>
@@ -51,7 +51,39 @@ class Footer extends HTMLElement {
                             <li><a href="#" class="hover:underline">Cities</a></li>
                         </ul>
                     </div>
+        </div>
+
+        <div class="flex justify-between">
+          <div class="flex items-center space-x-4">
+            <div class="">
+                <button>English</button>
+            </div>
          </div>
+          <div class="flex space-x-3">
+            <a href="#">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="" class="h-10"></img>
+            </a>
+            <a href="#">
+              <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="" class="h-10"></img>
+            </a>
+          </div>
+        </div>
+
+        <div class="text-sm text-gray-400">
+          <p class="mb-4">Go anywhere with Uber.
+            We reimagine the way the world moves for the better</p>
+        </div>
+        <div class="flex space-x-4 justify-between">
+          <div class="self-start">
+            <p class="mt-4">© 2025 Uber Technologies Inc.</p>
+          </div>
+          <div class="self-end ml-4 flex gap-4">
+            <p>Privacy</p>
+            <p>Accessibility</p>
+            <p>Terms</p>
+          </div>
+        </div>
+
       </footer>
     `;
   }
