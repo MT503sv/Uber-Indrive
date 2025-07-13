@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002F404","\u002Farticle\u002F[id]","\u002Fdelete-account","\u002Femail\u002Ffeedback\u002F[id]","\u002Femail\u002Ffeedback\u002F[id]\u002F[code]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
