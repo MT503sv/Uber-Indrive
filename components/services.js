@@ -2,8 +2,7 @@ class Services extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
         
-        <section class="">
-            <!-- Botón principal y título -->
+        <section>
             <div class="text-white flex items-center justify-center mt-40">
                 <button class="bg-black hover:bg-gray-800 text-white font-[18px] font-bold py-2 px-4 rounded-full">Uber app</button>
             </div>
