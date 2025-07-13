@@ -83,7 +83,6 @@ class Footer extends HTMLElement {
             <p>Terms</p>
           </div>
         </div>
-
       </footer>
     `;
   }
