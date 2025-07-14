@@ -1,4 +1,4 @@
-class valores extends HTMLElement {
+class Values extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <div class="mt-15">
@@ -43,4 +43,4 @@ class valores extends HTMLElement {
         `
     }
 }
-customElements.define('va-lues', valores);
+customElements.define('va-lues', Values);
