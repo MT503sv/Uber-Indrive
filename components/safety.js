@@ -1,7 +1,7 @@
 class Safety extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <div class="min-h-screen bg-gray-100 flex flex-col items-center p-6">
+        <div class="min h-screen flex flex-col items-center p-6">
 
             <div class="text-center mb-10">
                 <div class="text-white flex items-center justify-center mt-40">
@@ -15,7 +15,7 @@ class Safety extends HTMLElement {
                 <p class="text-black font-inter mt-2">Stay on the safe side with Uber</p>
             </div>
 
-            <div class="bg-white rounded-lg w-full max-w-5xl px-10 pt-10 pb-0 flex md:flex-row items-end">
+            <div class="bg-white rounded-lg w-full max-w-5xl px-10 pt-10 pb-0 flex md:flex-row items-end shadow-lg">
 
                 <div class="w-full md:w-1/2 flex justify-center">
                     <img 
