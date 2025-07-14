@@ -1,6 +1,7 @@
 class Navbar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
+    <!--se arruino el codigo pero se pudo JAJAJA-->
       <section
         class="relative text-white w-full h-screen overflow-hidden font-sans px-6 flex flex-col justify-between bg-cover bg-center transition-[background-image] duration-1000 ease-in-out"
       >
