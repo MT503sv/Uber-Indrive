@@ -1,4 +1,4 @@
-class FraseCEO extends HTMLElement {
+class FhraseCEO extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <section class="relative w-full h-auto bg-black text-white flex flex-col lg:flex-row items-center justify-between px-8 pt-8 pb-2 overflow-hidden font-sans">
@@ -85,4 +85,4 @@ class FraseCEO extends HTMLElement {
   }
 }
 
-customElements.define("fra-seceo", FraseCEO);
+customElements.define("fhra-seceo", FhraseCEO);
