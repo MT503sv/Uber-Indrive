@@ -32,7 +32,7 @@ class valores extends HTMLElement {
                 </div>
 
                 <div class="relative w-80 h-[28rem] rounded-lg overflow-hidden shadow-lg">
-                <img src="img/3.jpeg" alt="Perfomance" class="w-full h-[450px] object-cover" />
+                <img src="img/3.jpg" alt="Perfomance" class="w-full h-[450px] object-cover" />
                 <div class="absolute top-4 left-4 text-white text-4xl font-bold">Perfomance</div>
                 <button class="absolute bottom-4 left-4 bg-black text-white font-semibold py-1 px-3 rounded-full">
                     Learn more

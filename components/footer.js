@@ -1,7 +1,7 @@
 class Footer extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <footer class="bg-black text-white px-20 py-20 text-sm mt-16">
+        <footer class="bg-black text-white px-20 py-20 text-sm mt-0">
           <div class="grid grid-cols-2 md:grid-cols-5 gap-8 mb-10">
             <div class="space-y-10 flex flex-col">
               <img src="img/Uber-White-Logo.wine.svg" alt="" class="w-20 h-10">

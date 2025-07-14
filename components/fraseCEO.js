@@ -1,8 +1,8 @@
 class FraseCEO extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <section class="relative bg-black text-white h-screen flex items-center justify-between px-8 py-8 overflow-hidden font-sans">
-        <div id="text" class="max-w-md">
+      <section class="relative w-full h-auto bg-black text-white flex flex-col lg:flex-row items-center justify-between px-8 pt-8 pb-2 overflow-hidden font-sans">
+        <div id="text" class="max-w-md mb-8 lg:mb-0">
           <h1 class="text-4xl font-bold leading-tight">
             Leading Uber into<br>
             <span class="bg-white text-black px-2 py-0.5 inline-block rounded-sm">the future</span>
@@ -68,9 +68,10 @@ class FraseCEO extends HTMLElement {
 
       img.src = slide.img;
 
+      // Reiniciar animación de la barra
       bar.style.transition = "none";
       bar.style.width = "0%";
-      void bar.offsetWidth; 
+      void bar.offsetWidth;
       bar.style.transition = "width 5s linear";
       bar.style.width = "100%";
     };
