@@ -4,19 +4,21 @@ class Navbar extends HTMLElement {
       <section
         class="relative text-white w-full h-screen overflow-hidden font-sans px-6 flex flex-col justify-between bg-cover bg-center transition-[background-image] duration-1000 ease-in-out"
       >
-        <header class="relative w-full flex items-center justify-between py-4 z-10">
-          <div class="flex items-center">
-            <img src="img/Uber-White-Logo.wine.svg" class="h-10" />
-          </div>
-          <div class="flex items-center gap-4">
-            <button class="text-sm border border-white px-3 py-1 rounded-full hover:bg-white hover:text-black transition">
-              ES
-            </button>
-            <button class="text-sm border border-white px-3 py-1 rounded-full hover:bg-white hover:text-black transition">
-              Menu
-            </button>
-          </div>
-        </header>
+       <header class="fixed top-0 left-0 w-full flex items-center justify-between py-4 z-50 bg-black bg-opacity-80 px-6">
+  <div class="flex items-center">
+    <img src="img/Uber-White-Logo.wine.svg" class="h-10" />
+  </div>
+  <div class="flex items-center gap-4">
+    <button class="text-sm border border-white px-3 py-1 rounded-full hover:bg-white hover:text-black transition">
+      ES
+    </button>
+    <button class="text-sm border border-white px-3 py-1 rounded-full hover:bg-white hover:text-black transition">
+      Menu
+    </button>
+  </div>
+</header>
+
+
 
         <div class="relative z-10 mt-20 max-w-3xl mx-auto text-flex">
           <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6 bg-white text-black px-2" ">
